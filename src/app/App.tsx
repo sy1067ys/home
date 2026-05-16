@@ -15,7 +15,7 @@ export default function App() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-[#f5f2ed]/95 backdrop-blur-sm border-b-2 border-[#8b4f47]/20">
         <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between relative">
           <a href="#" className="flex items-center gap-4">
-            <img src={yoichiLogo} alt="YOICHI" className="h-14 w-14" />
+            <img src={yoichiLogo} alt="YOICHI" className="h-20 w-20" />
             <div className="flex flex-col">
               <span className="text-2xl tracking-widest font-bold text-[#3a3230]">YOICHI</span>
             </div>
@@ -51,14 +51,6 @@ export default function App() {
       </header>
 
       <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-        <div className="absolute top-0 right-0 w-2/5 h-full opacity-30">
-          <img src={yoichiLogo} alt="和柄" className="w-full h-full object-cover" />
-        </div>
-
-        <div className="absolute bottom-0 left-0 w-1/3 h-1/3 opacity-20">
-          <img src={yoichiLogo} alt="和柄" className="w-full h-full object-cover" />
-        </div>
-
         <div className="absolute top-1/4 left-1/4 w-64 h-64 text-[#c4504a] opacity-20">
           <YagasuriBg className="w-full h-full" />
         </div>
@@ -66,7 +58,7 @@ export default function App() {
         <div className="relative z-10 max-w-7xl mx-auto px-6 py-20">
           <div className="max-w-3xl">
             <div className="mb-12 flex items-center gap-6">
-              <img src={yoichiLogo} alt="YOICHI Logo" className="w-32 h-32 md:w-40 md:h-40" />
+              <img src={yoichiLogo} alt="YOICHI Logo" className="w-48 h-48 md:w-64 md:h-64" />
               <div className="flex flex-col gap-2">
                 <h1 className="text-4xl md:text-5xl tracking-widest font-bold text-[#3a3230]">YOICHI</h1>
                 <div className="h-1 w-24 bg-[#c4504a]"></div>
